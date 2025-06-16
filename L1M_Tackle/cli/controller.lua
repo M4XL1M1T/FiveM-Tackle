@@ -35,4 +35,4 @@ function TacklePlayer()
     return closestPlayer, closestDistance
 end
 
-RegisterKeyMapping("TacklePlayer", "Tackle", "keyboard", "H")
+RegisterKeyMapping("TacklePlayer", "Tackle", "keyboard", Config.TackleKey)
